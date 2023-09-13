@@ -39,11 +39,11 @@
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| Usuário                | Quero fazer login na plataforma usando meu e-mail e senha| Acessar as funcionalidades |
-| Usuário                | Desejo inserir minhas despesas mensais | Para ter controle dos gastos |
-| Usuário                | Quero categorizar minha despesa | Para melhor organização |
-| Usuário                | Desejo criar metas financeiras de curto, médio e longo prazo | Para criar planos econômicos |
-| Usuário                | Quero definir o valor alvo para cada meta e a data limite para alcançá-la. | Para melhor gestão dos planos econômicos |
+| Usuário | Quero fazer login na plataforma usando meu e-mail e senha| Acessar as funcionalidades |
+| Usuário | Desejo inserir minhas despesas mensais | Para ter controle dos gastos |
+| Usuário | Quero categorizar minha despesa | Para melhor organização |
+| Usuário | Desejo criar metas financeiras de curto, médio e longo prazo | Para criar planos econômicos |
+| Usuário | Quero definir o valor alvo para cada meta e a data limite para alcançá-la. | Para melhor gestão dos planos econômicos |
 
 
 ## Requisitos do Projeto
