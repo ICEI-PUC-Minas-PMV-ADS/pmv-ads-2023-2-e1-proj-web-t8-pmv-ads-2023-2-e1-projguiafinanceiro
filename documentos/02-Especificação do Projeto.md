@@ -37,17 +37,14 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Usuário                | Quero fazer login na plataforma usando meu e-mail e senha| Acessar as funcionalidades |
+| Usuário                | Desejo inserir minhas despesas mensais | Para ter controle dos gastos |
+| Usuário                | Quero categorizar minha despesa | Para melhor organização |
+| Usuário                | Desejo criar metas financeiras de curto, médio e longo prazo | Para criar planos econômicos |
+| Usuário                | Quero definir o valor alvo para cada meta e a data limite para alcançá-la. | Para melhor gestão dos planos econômicos |
+
 
 ## Requisitos do Projeto
 
