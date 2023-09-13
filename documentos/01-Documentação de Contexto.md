@@ -1,35 +1,29 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+No cenário contemporâneo a gestão eficaz das finanças pessoais é um componente essencial para alcançar estabilidade econômica e bem-estar emocional. No entanto, muitas pessoas enfrentam desafios na administração de seus recursos financeiros, resultando em dificuldades no controle de gastos, acúmulo de dívidas e na tomada de decisões financeiras informadas. Para suprir essa carência, surge a necessidade de ferramentas de apoio e controle financeiro que capacitem os indivíduos a gerenciarem seus recursos de maneira responsável. 
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+O cerne deste projeto é a escassez de ferramentas eficazes de apoio e controle financeiro, que levam a consequências adversas na gestão das finanças pessoais. A ausência de ferramentas especializadas resulta em decisões financeiras inadequadas, desorganização das finanças e, consequentemente, estresse financeiro. Esse problema é especialmente notável nos estágios iniciais da vida financeira, quando jovens adultos estão se deparando com a administração de seus recursos pela primeira vez. 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Nosso principal objetivo é proporcionar um espaço para capacitar nossos usuários a estabelecerem metas financeiras personalizadas para economizar dinheiro e atingir objetivos específicos, proporcionando assim uma visão clara de seus planos econômicos de curto, médio e longo prazo e oferecer educação financeira ensinando conceitos financeiros essenciais, capacitando-os a tomar decisões financeiras responsáveis e a construir um futuro financeiro mais sólido 
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+A importância de abordar a lacuna na disponibilidade de ferramentas de apoio e controle financeiro é substanciada por dados que revelam os impactos significativos da falta de literacia financeira. De acordo com um estudo do Banco Mundial, cerca de 31% da população global não possui acesso a serviços financeiros formais, expondo-as a maiores riscos financeiros. Essa ausência de ferramentas adequadas contribui para o aumento das taxas de endividamento em muitos países, como refletido nos dados do Federal Reserve dos Estados Unidos, que mostram uma dívida total dos consumidores superior a US$ 14 trilhões em 2021.  
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, estudos, como o publicado no Journal of Financial Therapy, demonstram uma conexão direta entre o estresse financeiro e problemas de saúde mental, incluindo ansiedade e depressão. A criação de uma ferramenta de apoio e controle financeiro se torna, portanto, crucial para melhorar a literacia financeira, reduzir o endividamento e promover a saúde financeira e emocional. 
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+Jovens adultos em início de vida financeira: Este grupo é composto por indivíduos que estão começando a assumir responsabilidade pela administração de suas finanças pessoais. Eles buscam orientação e ferramentas para controlar gastos, economizar e tomar decisões financeiras informadas à medida que entram no mundo financeiro. 
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+  
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+Adultos em busca de melhorias na gestão financeira: Outro segmento de nosso público-alvo são adultos que desejam aprimorar sua gestão financeira. Eles procuram definir metas financeiras claras, categorizar despesas e criar planos econômicos mais eficazes. 
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+  
+
+Usuários em busca de educação financeira: Também atendemos a indivíduos interessados em aprender mais sobre finanças pessoais e adquirir conhecimentos que os ajudem a tomar decisões mais conscientes. Esse grupo deseja entender conceitos financeiros essenciais e aplicá-los em sua vida diária. 
 
