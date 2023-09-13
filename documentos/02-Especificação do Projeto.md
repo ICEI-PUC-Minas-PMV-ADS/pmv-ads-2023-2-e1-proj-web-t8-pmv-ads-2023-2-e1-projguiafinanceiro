@@ -12,7 +12,7 @@
 <td width="600px">Joana é uma estudante universitária que está em seu último ano de graduação. Ela recebe uma bolsa de estudos limitada e trabalha meio período para se sustentar.</td>
 </tr>
 <tr>
-<td><b>Necessidades</b></td>
+<td><b>Necessidades:</b></td>
 <td>Joana precisa de ferramentas que a ajudem a controlar seus gastos, economizar dinheiro e planejar seu futuro financeiro para se preparar para a vida pós-graduação.</td>
 </tr>
 </tbody>
@@ -28,7 +28,7 @@
 <td width="600px">Carlos e Maria são um casal jovem que acabou de se casar. Eles compartilham despesas, incluindo aluguel, contas de serviços públicos e despesas do dia a dia.</td>
 </tr>
 <tr>
-<td><b>Necessidades</b></td>
+<td><b>Necessidades:</b></td>
 <td>Eles precisam de uma maneira de rastrear despesas compartilhadas, definir um orçamento para metas de curto prazo (como uma viagem) e planejar suas finanças a longo prazo para comprar uma casa. </td>
 </tr>
 </tbody>
