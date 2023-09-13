@@ -52,14 +52,35 @@
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
-|ID    | Descrição                | Prioridade |
-|-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Descrição</th>
+    <th>Prioridade</th>
+  </tr>
+  <tr>
+    <td>RF-00</td>
+    <td>Orçamento: definição de metas de gastos mensais, acompanhamento do progresso em relação ao orçamento, alertas quando os gastos se aproximarem dos limites definidos.</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>RF-01</td>
+    <td>Planejamento Financeiro: simulador de empréstimos e investimentos, planejamento de aposentadoria, calculadoras para economizar, investir ou pagar dívidas.</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>RF-02</td>
+    <td>Integração com Contas Bancárias: conexão com contas bancárias para importar automaticamente transações, monitoramento em tempo real de saldos e atividades.</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td>RF-03</td>
+    <td>Compartilhamento: capacidade de compartilhar informações financeiras com familiares ou parceiros, definição de permissões de acesso.</td>
+    <td>Baixa</td>
+  </tr>
+</table>
 
-**Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
 
