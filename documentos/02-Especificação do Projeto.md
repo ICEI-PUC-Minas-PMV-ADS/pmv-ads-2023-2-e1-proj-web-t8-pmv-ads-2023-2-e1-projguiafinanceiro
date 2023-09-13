@@ -12,7 +12,7 @@
 <td width="600px">Joana é uma estudante universitária que está em seu último ano de graduação. Ela recebe uma bolsa de estudos limitada e trabalha meio período para se sustentar.</td>
 </tr>
 <tr>
-<td><b>Necessidades</b>Necessidades:</td>
+<td><b>Necessidades</b></td>
 <td>Joana precisa de ferramentas que a ajudem a controlar seus gastos, economizar dinheiro e planejar seu futuro financeiro para se preparar para a vida pós-graduação.</td>
 </tr>
 </tbody>
