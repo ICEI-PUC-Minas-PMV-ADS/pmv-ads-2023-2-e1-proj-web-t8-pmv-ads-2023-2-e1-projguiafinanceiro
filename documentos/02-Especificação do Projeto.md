@@ -84,12 +84,47 @@
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Descrição</th>
+    <th>Prioridade</th>
+  </tr>
+  <tr>
+    <td>RNF-01</td>
+    <td>A interface da ferramenta deve ser amigável e de fácil navegação, garantindo que até mesmo usuários iniciantes em finanças possam utilizá-la sem dificuldades.</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>RNF-02</td>
+    <td>Deve ser compatível com os principais navegadores da web e dispositivos móveis, garantindo que os usuários possam acessá-la em qualquer lugar.</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>RNF-03</td>
+    <td>Deve ser oferecido um guia de uso da ferramenta para orientar os usuários, especialmente os iniciantes em finanças pessoais.</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td>RNF-04</td>
+    <td>Os dados financeiros dos usuários devem ser protegidos e criptografados para garantir a confidencialidade.</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>RNF-05</td>
+    <td>A ferramenta deve ser responsiva, com tempos de carregamento curtos, mesmo quando há grande volume de dados.</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td>RNF-06</td>
+    <td>Deve ser fornecida uma política de privacidade detalhada e transparente, explicando como os dados dos usuários serão usados e protegidos.</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>RNF-07</td>
+    <td>A ferramenta deve permitir que os usuários escolham sua moeda e idioma preferidos para uma experiência personalizada.</td>
+    <td>Baixa</td>
+  </tr>
+</table>
 
-|ID      | Descrição               |Prioridade |
-|--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
-
-**Prioridade: Alta / Média / Baixa. 
 
