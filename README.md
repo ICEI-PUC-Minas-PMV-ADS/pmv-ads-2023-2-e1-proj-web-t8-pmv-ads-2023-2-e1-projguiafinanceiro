@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-Bruno Henrique F G Penna Lopes
-Israel Messias Gomes Moreira
-Lucas Rocha Nunes Júnior
-Mateus Gonçalves Morais
-Uarles dos Santos Alves 
-Víctor Santana Ballestrini de Oliveira
+* Bruno Henrique F G Penna Lopes
+* Israel Messias Gomes Moreira
+* Lucas Rocha Nunes Júnior
+* Mateus Gonçalves Morais
+* Uarles dos Santos Alves 
+* Víctor Santana Ballestrini de Oliveira
 
 ## Orientador
 
