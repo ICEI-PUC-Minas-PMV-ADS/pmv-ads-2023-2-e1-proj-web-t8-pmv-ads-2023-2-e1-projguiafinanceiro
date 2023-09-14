@@ -64,10 +64,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             |[https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/codigo-fonte)|
-| Documentos do projeto               | GitHub                             |[ http://....                            ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/documentos)|
-| Projeto de Interface                | Figma                              |[ http://....                            ](https://www.figma.com/file/E29JukIw9ihLNNHAgRCBQ1/GuiaFinanceiro?type=design&mode=design&t=rlrH7hfpEfRzjE45-1)|
-| Gerenciamento do Projeto            | GitHub Projects                    |[ http://....                            ](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/596)|
+| Repositório de código fonte         | GitHub                             |[Repositório do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/codigo-fonte)|
+| Documentos do projeto               | GitHub                             |[Documentos do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/documentos)|
+| Projeto de Interface                | Figma                              |[Interface do projeto](https://www.figma.com/file/E29JukIw9ihLNNHAgRCBQ1/GuiaFinanceiro?type=design&mode=design&t=rlrH7hfpEfRzjE45-1)|
+| Gerenciamento do Projeto            | GitHub Projects                    |[Gerenciamento do Projeto ](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/596)|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
