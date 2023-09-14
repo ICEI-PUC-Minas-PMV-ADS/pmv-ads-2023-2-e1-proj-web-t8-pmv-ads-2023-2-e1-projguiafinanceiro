@@ -8,7 +8,7 @@
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
-## Integrantes
+## Integrantes   
 
 * Bruno Henrique F G Penna Lopes
 * Israel Messias Gomes Moreira
