@@ -34,7 +34,6 @@
 </tbody>
 </table>
 
-
 ## Histórias de Usuários
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
@@ -45,11 +44,9 @@
 | Usuário | Desejo criar metas financeiras de curto, médio e longo prazo | Para criar planos econômicos |
 | Usuário | Quero definir o valor alvo para cada meta e a data limite para alcançá-la. | Para melhor gestão dos planos econômicos |
 
-
 ## Requisitos do Projeto
 
 ### Requisitos Funcionais
-
 
 <table>
   <tr>
@@ -78,7 +75,6 @@
     <td>Baixa</td>
   </tr>
 </table>
-
 
 ### Requisitos não Funcionais
 
@@ -124,5 +120,3 @@
     <td>Baixa</td>
   </tr>
 </table>
-
-

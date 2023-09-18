@@ -1,10 +1,10 @@
 # Guia Financeiro
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-end`
 
-`SEMESTRE`
+`2º semestre/2023`
 
 O projeto desenvolvido é uma plataforma de gerenciamento financeiro que atende às necessidades de diferentes perfis de usuários, incluindo estudantes universitários, casais jovens e outros. A solução permite que os usuários façam login, insiram suas despesas mensais, categorizem despesas, estabeleçam metas financeiras de curto, médio e longo prazo, definam valores alvo e prazos para essas metas. Além disso, a plataforma oferece uma interface amigável e compatibilidade com dispositivos móveis, garantindo acessibilidade em qualquer lugar. A segurança e a privacidade dos dados dos usuários são enfatizadas, com criptografia e uma política de privacidade detalhada. Em resumo, o projeto visa fornecer uma solução abrangente para o gerenciamento financeiro pessoal, abordando as necessidades específicas dos usuários e garantindo uma experiência de usuário satisfatória e segura.
 
