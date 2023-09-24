@@ -63,7 +63,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             |[Repositório do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/codigo-fonte)|
 | Documentos do projeto               | GitHub                             |[Documentos do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/documentos)|
-| Projeto de Interface                | Figma                              |[Interface do projeto](https://www.figma.com/file/E29JukIw9ihLNNHAgRCBQ1/GuiaFinanceiro?type=design&mode=design&t=rlrH7hfpEfRzjE45-1)|
+| Projeto de Interface                | Figma                              |[Interface do projeto](https://www.figma.com/file/aWJlTrrAD3CDfvoTD1Nd9U/Guia-Financeiro?type=design&node-id=456-335&mode=design&t=aUHF4APjo8VCbSmW-0)|
 | Gerenciamento do Projeto            | GitHub Projects                    |[Gerenciamento do Projeto](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/596)|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
