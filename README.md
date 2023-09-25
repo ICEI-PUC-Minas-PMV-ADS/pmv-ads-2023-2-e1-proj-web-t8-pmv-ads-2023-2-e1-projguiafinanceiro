@@ -10,11 +10,7 @@ O projeto desenvolvido é uma plataforma de gerenciamento financeiro que atende 
 
 ## Integrantes   
 
-* Bruno Henrique F G Penna Lopes
 * Israel Messias Gomes Moreira
-* Lucas Rocha Nunes Júnior
-* Mateus Gonçalves Morais
-* Uarles dos Santos Alves 
 * Víctor Santana Ballestrini de Oliveira
 
 ## Orientador
