@@ -39,21 +39,16 @@ Víctor Santana Ballestrini de Oliveira
 
 ### Etiquetas
 
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
 
-<ul>
-  <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
-</ul>
-
-<figure>
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption></figcaption>
-</figure>
+- Bug (Erro no código)
+- Desenvolvimento (Development)
+- Documentação (Documentation)
+- Gerência de Projetos (Project Management)
+- Infraestrutura (Infrastructure)
+- Testes (Tests)
+  
+![kanban](https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png)
   
 ### Ferramentas
 

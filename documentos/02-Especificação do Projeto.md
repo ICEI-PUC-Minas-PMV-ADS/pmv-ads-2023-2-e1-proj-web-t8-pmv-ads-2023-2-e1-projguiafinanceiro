@@ -5,15 +5,15 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Estudante Universitário - Joana</th>
+<th colspan="2">Perfil 1 - Jovem adulto</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição:</b></td>
-<td width="600px">Joana é uma estudante universitária que está em seu último ano de graduação. Ela recebe uma bolsa de estudos limitada e trabalha meio período para se sustentar.</td>
+<td width="600px">Jovem adulto em início de carreira e sem conhecimento prévio de gestão financeira pessoal.</td>
 </tr>
 <tr>
-<td><b>Necessidades:</b></td>
-<td>Joana precisa de ferramentas que a ajudem a controlar seus gastos, economizar dinheiro e planejar seu futuro financeiro para se preparar para a vida pós-graduação.</td>
+<td><b>Objetivo:</b></td>
+<td>Assumir a responsabilidade pela administração de suas finanças pessoaio.</td>
 </tr>
 </tbody>
 </table>
@@ -21,15 +21,15 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Casal Jovem - Carlos e Maria </th>
+<th colspan="2">Perfil 2 - Adulto </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição:</b></td>
-<td width="600px">Carlos e Maria são um casal jovem que acabou de se casar. Eles compartilham despesas, incluindo aluguel, contas de serviços públicos e despesas do dia a dia.</td>
+<td width="600px">Adulto com carreira mais consolidade e reserva financeira em construção.</td>
 </tr>
 <tr>
-<td><b>Necessidades:</b></td>
-<td>Eles precisam de uma maneira de rastrear despesas compartilhadas, definir um orçamento para metas de curto prazo (como uma viagem) e planejar suas finanças a longo prazo para comprar uma casa. </td>
+<td><b>Objetivo:</b></td>
+<td>Aprimorar sua gestão financeira, definir metas claras, categorizar despesas e criar planos econômicos mais eficazes. </td>
 </tr>
 </tbody>
 </table>
@@ -38,11 +38,11 @@
 
 | Eu como... `PERSONA`| Quero/Preciso... `FUNCIONALIDADE` | Para... `MOTIVO/VALOR`
 | :-------------------- | :--------------------------- | :---------------------------------- |
-| Usuário | Quero fazer login na plataforma usando meu e-mail e senha| Acessar as funcionalidades |
+| Usuário | Quero fazer login na plataforma usando meu e-mail e senha | Para controlar de forma segura minhas finanças |
 | Usuário | Desejo inserir minhas despesas mensais | Para ter controle dos gastos |
-| Usuário | Quero categorizar minha despesa | Para melhor organização |
-| Usuário | Desejo criar metas financeiras de curto, médio e longo prazo | Para criar planos econômicos |
-| Usuário | Quero definir o valor alvo para cada meta e a data limite para alcançá-la. | Para melhor gestão dos planos econômicos |
+| Adulto | Quero categorizar minhas despesas | Para ter uma melhor visão do meu orçamento mensal |
+| Adulto | Desejo ter controle completo das minhas metas financeiras de curto, médio e longo prazo | Para me organizar nas economias |
+| Jovem adulto | Quero ter acesso a artigos, tutoriais e dicas práticas sobre finanças | Para aprender como gerir meu dinheiro |
 
 ## Requisitos do Projeto
 
@@ -51,12 +51,11 @@
 | ID | Descrição | Prioridade |
 | :---------: | :-------- | :--------: |
 | RF-01 | A aplicação deve permitir ao usuário cadastrar uma conta.   | Alta |
-| RF-02 | A aplicação deve permitir ao usuário fazer o login da sua conta.   | Alta |
-| RF-03 | A aplicação deve permitir ao usuário definir metas financeiras | Média |
-| RF-04 | A aplicação deve permitir ao usuário visualizar suas metas cadastradas | Média |
-| RF-05 | A aplicação deve fornecer um simulador de investimentos em opções diversas | Baixa |
-| RF-06 | A aplicação deve fornecer ao usuário artigos sobre controle financeiro e investimentos | Baixa |
-| RF-07 | A aplicação deve permitir o registro de gastos do usuário| Alta |
+| RF-02 | A aplicação deve permitir ao usuário fazer o login em sua conta.   | Alta |
+| RF-03 | A aplicação deve permitir ao usuário gerenciar metas financeiras | Média |
+| RF-04 | A aplicação deve permitir ao usuário acompanhar suas metas cadastradas | Média |
+| RF-05 | A aplicação deve fornecer ao usuário artigos sobre tópicos do mundo de gerenciamento de finanças pessoais | Baixa |
+| RF-06 | A aplicação deve permitir o registro de gastos do usuário| Alta |
 
 ### Requisitos não Funcionais
 
