@@ -15,10 +15,10 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Product Owner: Víctor Santana Ballestrini de Oliveira
 - Equipe de Desenvolvimento:
 Israel Messias Gomes Moreira,
-Víctor Santana Ballestrini de Oliveira
+Víctor Santana Ballestrini de Oliveira.
 - Equipe de Design:
 Israel Messias Gomes Moreira,
-Víctor Santana Ballestrini de Oliveira
+Víctor Santana Ballestrini de Oliveira.
 
 ### Processo
 
