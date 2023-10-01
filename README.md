@@ -15,7 +15,6 @@ O projeto desenvolvido é uma plataforma de gerenciamento financeiro que atende 
 * Mateus Goncalves Morais
 * Víctor Santana Ballestrini de Oliveira
   
-
 ## Orientador
 
 * Marco Rodrigo Costa
