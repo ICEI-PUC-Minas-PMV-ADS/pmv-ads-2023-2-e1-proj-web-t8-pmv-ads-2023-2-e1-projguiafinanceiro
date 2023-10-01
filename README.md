@@ -11,7 +11,9 @@ O projeto desenvolvido é uma plataforma de gerenciamento financeiro que atende 
 ## Integrantes
 
 * Israel Messias Gomes Moreira
+* Mateus Goncalves Morais
 * Víctor Santana Ballestrini de Oliveira
+  
 
 ## Orientador
 
