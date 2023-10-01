@@ -12,20 +12,12 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
 - Scrum Master: Israel Messias Gomes Moreira
-- Product Owner: Mateus Gonçalves Morais
+- Product Owner: Víctor Santana Ballestrini de Oliveira
 - Equipe de Desenvolvimento:
-Bruno Henrique F G Penna Lopes,
 Israel Messias Gomes Moreira,
-Lucas Rocha Nunes Júnior,
-Mateus Gonçalves Morais,
-Uarles dos Santos Alves,
 Víctor Santana Ballestrini de Oliveira
 - Equipe de Design:
-Bruno Henrique F G Penna Lopes,
 Israel Messias Gomes Moreira,
-Lucas Rocha Nunes Júnior,
-Mateus Gonçalves Morais,
-Uarles dos Santos Alves,
 Víctor Santana Ballestrini de Oliveira
 
 ### Processo
