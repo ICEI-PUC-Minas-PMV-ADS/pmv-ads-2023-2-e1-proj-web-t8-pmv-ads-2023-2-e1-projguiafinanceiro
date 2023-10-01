@@ -16,9 +16,11 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Equipe de Desenvolvimento:
 Israel Messias Gomes Moreira,
 Víctor Santana Ballestrini de Oliveira.
+Mateus Goncalves Morais.
 - Equipe de Design:
 Israel Messias Gomes Moreira,
 Víctor Santana Ballestrini de Oliveira.
+Mateus Goncalves Morais
 
 ### Processo
 
