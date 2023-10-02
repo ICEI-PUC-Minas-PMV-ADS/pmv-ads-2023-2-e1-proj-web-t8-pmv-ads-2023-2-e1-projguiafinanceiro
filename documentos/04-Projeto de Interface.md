@@ -3,7 +3,7 @@
 
 ## User Flow
 
-O user flow apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção Protótipo que se segue. Para visualizar o user flow de forma interativa, basta [acessar este link](https://www.figma.com/proto/aWJlTrrAD3CDfvoTD1Nd9U/Guia-Financeiro?page-id=456%3A335&node-id=2814-149&scaling=scale-down&starting-point-node-id=2814%3A149&mode=design&t=G0CkIJD7Zlrvs97R-1).
+O user flow apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção Protótipo que se segue. Para visualizar o user flow de forma interativa, basta [acessar este link](https://miro.com/welcomeonboard/a1lhS3JJWjdKQWw3RHVXSUtvSHF6bzZJZHJaUjBvb3NWaUVVTmppeTRNVFZLOUNaa0QzSzNBVjV6RElwTTNwZXwzNDU4NzY0NTUwODUxMzM2MzMxfDI=?share_link_id=863857341483).
 
 ![alt text for screen readers](./img/user_flow.jpg "Text to show on mouseover")
 
