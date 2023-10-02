@@ -14,10 +14,12 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Scrum Master: Israel Messias Gomes Moreira
 - Product Owner: Víctor Santana Ballestrini de Oliveira
 - Equipe de Desenvolvimento:
+Bruno Henrique Figueiredo Guanabarino Penna Lopes
 Israel Messias Gomes Moreira,
 Víctor Santana Ballestrini de Oliveira,
 Mateus Goncalves Morais.
 - Equipe de Design:
+Bruno Henrique Figueiredo Guanabarino Penna Lopes
 Israel Messias Gomes Moreira,
 Víctor Santana Ballestrini de Oliveira,
 Mateus Goncalves Morais.
@@ -53,6 +55,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte         | GitHub                             |[Repositório do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/codigo-fonte)|
 | Documentos do projeto               | GitHub                             |[Documentos do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/tree/main/documentos)|
 | Projeto de Interface                | Figma                              |[Interface do projeto](https://www.figma.com/file/aWJlTrrAD3CDfvoTD1Nd9U/Guia-Financeiro?type=design&node-id=456-335&mode=design&t=aUHF4APjo8VCbSmW-0)|
+| Fluxo de Usuário                    | Miro                               |[Fluxo de Usuário](https://miro.com/welcomeonboard/a1lhS3JJWjdKQWw3RHVXSUtvSHF6bzZJZHJaUjBvb3NWaUVVTmppeTRNVFZLOUNaa0QzSzNBVjV6RElwTTNwZXwzNDU4NzY0NTUwODUxMzM2MzMxfDI=?share_link_id=883676453313)|
 | Gerenciamento do Projeto            | GitHub Projects                    |[Gerenciamento do Projeto](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/596)|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
