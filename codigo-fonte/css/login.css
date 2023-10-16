@@ -1,0 +1,21 @@
+.form-title {
+    color: #FFFFFF;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#login-form #sign-up-form {
+    align-items: center;
+}
+
+.sign-up-cta {
+    align-items: center;
+    justify-content: center;
+}
