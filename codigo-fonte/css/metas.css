@@ -1,0 +1,73 @@
+body {
+    background-color: #002139;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left; /* Alinhar o texto à esquerda */
+    padding: 10px; /* Adicionado padding para espaçamento interno */
+}
+
+.add-goal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goal-list {
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 140%;
+}
+
+.goal-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goal-name, .goal-value {
+    flex: 1;
+    padding: 5px;
+    background-color: white;
+    color: #002139;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Espaço entre o nome e o valor da meta */
+}
+
+.add-button {
+    background-color: #00622D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.goal-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goal-list input.goal-value {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+}
