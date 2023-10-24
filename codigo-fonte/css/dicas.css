@@ -81,6 +81,8 @@
     overflow-y: scroll;
 }
 
+
+
 .materias {
     background-color: #FFFFFF;
     
@@ -92,4 +94,5 @@
     align-items: center;
     padding: 1%;
     overflow-y: scroll;
+    
 }
