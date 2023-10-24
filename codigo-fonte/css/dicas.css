@@ -78,6 +78,7 @@
     justify-content: baseline;
     align-items: center;
     padding: 1%;
+    overflow-y: scroll;
 }
 
 .materias {
