@@ -1,6 +1,6 @@
 function carregarMaterias() {
     var divMaterias = document.querySelector(".materias");
-    var query = "princípios de educação financeira";
+    var query = "educação financeira";
     var apiKey = "ad0366a3a3744e59b9521b0c0a381d8b";
     var url = `https://newsapi.org/v2/everything?q=${query}&apiKey=${apiKey}`;
 
