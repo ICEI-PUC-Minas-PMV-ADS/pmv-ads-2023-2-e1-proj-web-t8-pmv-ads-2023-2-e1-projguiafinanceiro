@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conta Bancária</title>
+    <link rel="stylesheet" type="text/css" href="codigo-fonte/css/extrato.css">
+    <script>
+        let saldo = 0;
+        let historico = [];
+
+        function entrada() {
+            let valorEntrada = parseFloat(document.getElementById("valorEntrada").value);
+            let tituloEntrada = document.getElementById("tituloEntrada").value;
+
+            if (!isNaN(valorEntrada)) {
+                saldo += valorEntrada;
+                historico.push(`Entrada: ${tituloEntrada} - R$ ${valorEntrada.toFixed(2)}`);
+                atualizarSaldo();
+                atualizarHistorico();
+            } else {
+                alert("Digite um valor válido para entrada.");
+            }
+        }
+
+        function sair() {
+            let valorSaida = parseFloat(document.getElementById("valorSaida").value);
+            let tituloSaida = document.getElementById("tituloSaida").value;
+
+            if (!isNaN(valorSaida)) {
+                if (valorSaida <= saldo) {
+                    saldo -= valorSaida;
+                    historico.push(`Saída: ${tituloSaida} - R$ ${valorSaida.toFixed(2)}`);
+                    atualizarSaldo();
+                    atualizarHistorico();
+                } else {
+                    alert("Saldo insuficiente.");
+                }
+            } else {
+                alert("Digite um valor válido para saída.");
+            }
+        }
+
+        function atualizarSaldo() {
+            document.getElementById("saldo").innerHTML = "Saldo: R$ " + saldo.toFixed(2);
+        }
+
+        function atualizarHistorico() {
+            let historicoLista = document.getElementById("historico");
+            historicoLista.innerHTML = "";
+            for (let i = 0; i < historico.length; i++) {
+                let item = document.createElement("li");
+                item.appendChild(document.createTextNode(historico[i]));
+                historicoLista.appendChild(item);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Conta Bancária</h1>
+    <p id="saldo">Saldo: R$ 0.00</p>
+    <label for="valorEntrada">Entrada:</label>
+    <input type="text" id="valorEntrada" />
+    <input type="text" id="tituloEntrada" placeholder="Título da Transação" />
+    <button onclick="entrada()">Registrar Entrada</button>
+    <br>
+    <label for="valorSaida">Saída:</label>
+    <input type="text" id="valorSaida" />
+    <input type="text" id="tituloSaida" placeholder="Título da Transação" />
+    <button onclick="sair()">Registrar Saída</button>
+    <h2>Histórico:</h2>
+    <ul id="historico"></ul>
+</body>
+</html>
