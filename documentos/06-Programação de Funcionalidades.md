@@ -1,36 +1,55 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados.
+Conforme descrito na seção [02-Especificação do Projeto](./02-Especificação%20do%20Projeto.md)
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+## RF-01
 
-## Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
+![Cadastro do usuário](./img/cadastro.png "Cadastro do usuário")
 
 ### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-01: A aplicação deve permitir ao usuário cadastrar uma conta.
 
 ### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+* codigo-fonte\pages\cadastro.html
+* codigo-fonte\js\cadastro.js
+* codigo-fonte\css\login.css
 
 ### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+Foi utilizado um array, armazenado no *local storage* para gerenciar as informações de usuários cadastrados.
 
 ### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Abra o arquivo codigo-fonte\pages\cadastro.html em um navegados web.
 
 ### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Victor Oliveira
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+## RF-02
+
+![Login do usuário](./img/template-login.png "Login do usuário")
+
+### Requisito atendido
+
+RF-02: A aplicação deve permitir ao usuário fazer o login em sua conta.
+
+### Artefatos da funcionalidade
+
+* codigo-fonte\pages\login.html
+* codigo-fonte\js\login.js
+* codigo-fonte\css\login.css
+
+### Estrutura de Dados
+
+Foi utilizado um array, armazenado no *local storage* para gerenciar as informações do usuário logado e dados da "sessão".
+
+### Instruções de acesso
+
+Abra o arquivo codigo-fonte\pages\login.html em um navegados web.
+
+### Responsável
+
+Victor Oliveira
