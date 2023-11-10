@@ -23,5 +23,5 @@ function createUser(event) {
     window.location.href = 'login.html';
 }
 
-const form = document.querySelector('sign-up-form');
-form.addEventListener('submit', createUserOnLocalStorage);
+const form = document.querySelector('#sign-up-form');
+form.addEventListener('submit', createUser);

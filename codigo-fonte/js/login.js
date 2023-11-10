@@ -22,7 +22,7 @@ function loginUser(event) {
     if (userFound) {
         localStorage.setItem('currentUser', JSON.stringify(currentUser));
         localStorage.setItem('isLogged', true);
-        window.location.href = 'main.html';
+        window.location.href = 'dicas.html';
     } else {
         alert('Email ou senha inválidos!');
     }
