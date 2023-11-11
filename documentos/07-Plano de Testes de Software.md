@@ -22,7 +22,7 @@ O processo de teste de software é fundamental para garantir a qualidade e a efi
 |:---|:---|
 | Requisitos Associados | RF-05 |
 | Objetivo do Teste | Verificar se a página exibe corretamente vídeos do YouTube relacionados à educação financeira. |
-| Passos | <ul><li>1. Acesse a página "Dicas".<br>2. Aguarde a exibição dos vídeos do YouTube na seção apropriada.<br>3. Verifique se há pelo menos um vídeo visível.<br>4. Clique em um vídeo para garantir que ele reproduza corretamente.<br>5. Confira se o título do vídeo é exibido corretamente.</li></ul>|
-| Critérios de êxito | <ul><li>- Vídeos do YouTube são exibidos corretamente.<br>- Pelo menos um vídeo está visível.<br>- O vídeo reproduz quando clicado.<br>- O título do vídeo é exibido corretamente.</li></ul>|
+| Passos | <ul><li> Acesse a página "Dicas".<br> Aguarde a exibição dos vídeos do YouTube na seção apropriada.<br> Verifique se há pelo menos um vídeo visível.<br> Clique em um vídeo para garantir que ele reproduza corretamente.<br>5. Confira se o título do vídeo é exibido corretamente.</li></ul>|
+| Critérios de êxito | <ul><li> Vídeos do YouTube são exibidos corretamente.<br> Pelo menos um vídeo está visível.<br> O vídeo reproduz quando clicado.<br> O título do vídeo é exibido corretamente.</li></ul>|
 | Responsável pela elaborar do caso de Teste | Israel Moreira |
 
