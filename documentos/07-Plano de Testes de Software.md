@@ -26,7 +26,7 @@ O processo de teste de software é fundamental para garantir a qualidade e a efi
 | Critérios de êxito | <ul><li> Vídeos do YouTube são exibidos corretamente.<br> <li>Pelo menos um vídeo está visível.<br> <li>O vídeo reproduz quando clicado.<br> <li>O título do vídeo é exibido corretamente.</li></ul>|
 | Responsável pela elaborar do caso de Teste | Israel Moreira |
 
-|Caso de Teste    | CT-04 - CT-03 - Limite de Busca da API Excedido |
+|Caso de Teste    | CT-04 - Limite de Busca da API Excedido |
 |:---|:---|
 | Requisitos Associados | RF-05 |
 | Objetivo do Teste | Verificar se a página trata corretamente o limite de busca da API do YouTube excedido. |
@@ -34,3 +34,10 @@ O processo de teste de software é fundamental para garantir a qualidade e a efi
 | Critérios de êxito | <ul><li> A mensagem "Limite de busca da API excedido" é exibida corretamente quando o limite é atingido.</ul>|
 | Responsável pela elaborar do caso de Teste | Israel Moreira |
 
+|Caso de Teste    | CT-05 - Exibição de Matérias |
+|:---|:---|
+| Requisitos Associados | RF-05 |
+| Objetivo do Teste | Verificar se a página exibe corretamente as matérias relacionadas à educação financeira. |
+| Passos | <ul><li> Acesse a página "Dicas".<br> <li>Verifique se há alguma matéria visível na seção de matérias.<br> <li>Clique em uma matéria para garantir que ela seja aberta corretamente.<br></ul>|
+| Critérios de êxito | <ul><li>Matérias são exibidas corretamente.<li>Pelo menos uma matéria está visível.<br><li>A matéria é aberta corretamente ao clicar<br></ul>|
+| Responsável pela elaborar do caso de Teste | Israel Moreira |
