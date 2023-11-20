@@ -41,3 +41,27 @@ O processo de teste de software é fundamental para garantir a qualidade e a efi
 | Passos | <ul><li> Acesse a página "Dicas".<br> <li>Verifique se há alguma matéria visível na seção de matérias.<br> <li>Clique em uma matéria para garantir que ela seja aberta corretamente.<br></ul>|
 | Critérios de êxito | <ul><li>Matérias são exibidas corretamente.<li>Pelo menos uma matéria está visível.<br><li>A matéria é aberta corretamente ao clicar<br></ul>|
 | Responsável pela elaborar do caso de Teste | Israel Moreira |
+
+|Caso de Teste    | CT-06 - Carregar Metas do Servidor JSON |
+|:---|:---|
+| Requisitos Associados | RF-04 |
+| Objetivo do Teste | Verificar se as metas são carregadas corretamente do servidor JSON. |
+| Passos | <ul><li> Acesse a página "Metas".<br> Verifique se todas as metas foram carregadas corretamente.</li></ul>|
+| Critérios de êxito | <ul><li>Todas as metas serem exibidias corretamente.</li></ul>|
+| Responsável pela elaborar do caso de Teste | Bruno Lopes |
+
+|Caso de Teste    | CT-07 - Adicionar Nova Meta |
+|:---|:---|
+| Requisitos Associados | RF-04 |
+| Objetivo do Teste | Verificar se é possível adicionar uma nova meta ao sistema. |
+| Passos | <ul><li> Acesse a página "Metas".<br> Insira uma nova meta.<br> Verifique se exibe corretamente a nova meta.</li></ul>|
+| Critérios de êxito | <ul><li>A nova meta é adicionada corretamente à lista.</li></ul>|
+| Responsável pela elaborar do caso de Teste | Bruno Lopes |
+
+|Caso de Teste    | CT-08 - Excluir Meta |
+|:---|:---|
+| Requisitos Associados | RF-04 |
+| Objetivo do Teste | Verificar se é possível excluir uma meta existente do sistema.. |
+| Passos | <ul><li> Acesse a página "Metas".<br> Excula uma meta.<br> Verifique se foi exculido corretamente a meta selecionada.</li></ul>|
+| Critérios de êxito | <ul><li>A meta selecionada é removida da lista após o clique no botão de exclusão.</li></ul>|
+| Responsável pela elaborar do caso de Teste | Bruno Lopes |
