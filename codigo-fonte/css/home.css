@@ -132,12 +132,12 @@
     padding: 5px 10px;
     border: 1px solid #fff;
     border-radius: 5px;
-    background-color: #fff; /* Cor de fundo */
-    color: #002139; /* Cor do texto */
+    background-color: #fff;
+    color: #002139;
 }
 
 .modal-content .goal-value {
-    color: #000; /* Nova cor para o valor */
+    color: #000; 
 }
 
 
@@ -154,17 +154,17 @@
 }
 
 .modal-content .delete-button {
-    background-color: #ff0000; /* Fundo vermelho */
-    color: #ffffff; /* Cor do texto */
+    background-color: #ff0000; 
+    color: #ffffff; 
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+    transition: background-color 0.3s ease; 
 }
 
 .modal-content .delete-button:hover {
-    background-color: #cc0000; /* Alteração de cor no hover */
+    background-color: #cc0000;
 }
 
 .close {
