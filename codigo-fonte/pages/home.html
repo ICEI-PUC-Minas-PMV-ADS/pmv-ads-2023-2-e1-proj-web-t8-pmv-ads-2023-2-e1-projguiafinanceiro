@@ -19,7 +19,7 @@
                 <div class="navbar">
                     <a href="../pages/home.html"><img src="../assets/icons/home-icon2.png" alt="">Home</a>
                     <a href="#"><img src="../assets/icons/entrada-icon.png" alt="">Entradas</a>
-                    <a href="#"><img src="../assets/icons/metas-icon.png" alt="">Metas</a>
+                    <a href="#" onclick="openModal()"><img src="../assets/icons/metas-icon.png" alt="">Metas</a>
                     <a href="#"><img src="../assets/icons/saidas-icon.png" alt="">Saídas</a>
                     <a href="../pages/dicas.html"><img src="../assets/icons/dicas-icon.png" alt="">Dicas</a>
                 </div>
@@ -38,9 +38,121 @@
             <div class="entradas">
                 <h1>Entradas</h1>
             </div>
+
+            <div id="metasModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h2>Metas</h2>
+                    <form id="addGoalForm">
+                        <input type="text" id="newGoalName" placeholder="Nome da Meta" required>
+                        <input type="number" id="newGoalValue" placeholder="Valor da Meta" required>
+                        <button type="submit">Adicionar Meta</button>
+                    </form>
+                    <ul id="goalList"></ul>
+                </div>
+            </div>
         </div>
     </div>
-</body>
 
+    <script>
+
+        const goals = [];
+
+        function openModal() {
+            document.getElementById('metasModal').style.display = 'block';
+            fetchGoals();
+        }
+
+        function closeModal() {
+            document.getElementById('metasModal').style.display = 'none';
+        }
+
+
+        function fetchGoals() {
+            const goals = [];
+
+            fetch('https://jsonserver--lopeszd.repl.co/metas')
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Metas carregadas do servidor JSON:', data);
+                    goals.push(...data);
+                    renderGoals(goals);
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar metas do servidor JSON:', error);
+                });
+        }
+
+
+        function renderGoals(goals) {
+            const goalList = document.getElementById('goalList');
+            goalList.innerHTML = '';
+
+            goals.forEach((goal, index) => {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `
+                    <input type="text" class="goal-name" value="${goal.name}" readonly>
+                    <input type="number" class="goal-value" value="${goal.value}" readonly disabled>
+                    <button class="delete-button" data-index="${index}">X</button>
+                `;
+                goalList.appendChild(listItem);
+            });
+
+            const deleteButtons = document.querySelectorAll('.delete-button');
+            deleteButtons.forEach(button => {
+                button.addEventListener('click', (event) => {
+                    const index = event.target.getAttribute('data-index');
+                    console.log('Clicado para excluir meta:', goals[index]);
+                    goals.splice(index, 1);
+
+                    saveGoalsToJSON(goals);
+
+                    renderGoals(goals);
+                });
+            });
+        }
+
+        document.getElementById('addGoalForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const newGoalName = document.getElementById('newGoalName').value;
+            const newGoalValue = parseFloat(document.getElementById('newGoalValue').value);
+
+            if (newGoalName && !isNaN(newGoalValue)) {
+                console.log('Adicionando nova meta:', { name: newGoalName, value: newGoalValue });
+                goals.push({ name: newGoalName, value: newGoalValue });
+
+                saveGoalsToJSON(goals);
+
+                renderGoals(goals);
+
+                document.getElementById('newGoalName').value = '';
+                document.getElementById('newGoalValue').value = '';
+            } else {
+                alert('Por favor, preencha o nome e o valor da meta.');
+            }
+        });
+
+
+        function saveGoalsToJSON(goals) {
+            const jsonData = JSON.stringify(goals);
+
+            fetch('https://jsonserver--lopeszd.repl.co/metas', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: jsonData,
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Metas salvas com sucesso no servidor JSON:', data);
+                })
+                .catch(error => {
+                    console.error('Erro ao salvar metas no servidor JSON:', error);
+                });
+        }
+    </script>
+</body>
 
 </html>
