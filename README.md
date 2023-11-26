@@ -33,7 +33,7 @@ O projeto desenvolvido é uma plataforma de gerenciamento financeiro que atende 
 
 ## Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado.
+Este trabalho apresenta um projeto desenvolvido em HTML, CSS e JavaScript, concebido para operar tanto em servidores quanto em navegadores web. A acessibilidade é facilitada por meio de um link direto, destacando a versatilidade e a aplicabilidade dessa solução interdisciplinar. O link direto pode ser acessado por [AQUI](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projguiafinanceiro/codigo-fonte/)
 
 ## Código-Fonte
 
