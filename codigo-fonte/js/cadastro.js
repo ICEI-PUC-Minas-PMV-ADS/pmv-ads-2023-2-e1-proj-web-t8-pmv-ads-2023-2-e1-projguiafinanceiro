@@ -20,7 +20,7 @@ function createUser(event) {
 
     alert('Usuário criado com sucesso!');
 
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
 }
 
 const form = document.querySelector('#sign-up-form');

@@ -31,7 +31,7 @@ function loginUser(event) {
 function logoutUser() {
     localStorage.removeItem('currentUser');
     localStorage.setItem('isLogged', false);
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
 }
 
 const signupBtn = document.querySelector('#sign-up-btn');

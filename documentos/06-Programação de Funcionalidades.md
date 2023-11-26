@@ -38,7 +38,7 @@ RF-02: A aplicação deve permitir ao usuário fazer o login em sua conta.
 
 ### Artefatos da funcionalidade
 
-* codigo-fonte\pages\login.html
+* codigo-fonte\pages\index.html
 * codigo-fonte\js\login.js
 * codigo-fonte\css\login.css
 
@@ -48,7 +48,7 @@ Foi utilizado um array, armazenado no *local storage* para gerenciar as informa�
 
 ### Instruções de acesso
 
-Abra o arquivo codigo-fonte\pages\login.html em um navegados web.
+Abra o arquivo codigo-fonte\pages\index.html em um navegados web.
 
 ### Responsável
 
