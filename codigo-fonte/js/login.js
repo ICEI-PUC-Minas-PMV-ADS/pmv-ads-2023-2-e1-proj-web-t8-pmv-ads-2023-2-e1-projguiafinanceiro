@@ -22,7 +22,7 @@ function loginUser(event) {
     if (userFound) {
         localStorage.setItem('currentUser', JSON.stringify(currentUser));
         localStorage.setItem('isLogged', true);
-        window.location.href = 'dicas.html';
+        window.location.href = 'home.html';
     } else {
         alert('Email ou senha inválidos!');
     }
@@ -33,6 +33,11 @@ function logoutUser() {
     localStorage.setItem('isLogged', false);
     window.location.href = 'login.html';
 }
+
+const signupBtn = document.querySelector('#sign-up-btn');
+signupBtn.addEventListener('click', () => {
+    window.location.href = 'cadastro.html';
+});
 
 const form = document.querySelector('#login-form');
 form.addEventListener('submit', loginUser);
