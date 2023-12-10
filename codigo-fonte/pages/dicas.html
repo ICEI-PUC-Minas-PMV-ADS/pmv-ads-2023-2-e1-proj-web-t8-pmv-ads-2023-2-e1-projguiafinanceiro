@@ -23,8 +23,7 @@
                     <a href="#"><img src="../assets/icons/saidas-icon.png" alt="">Saídas</a>
                     <a href="../pages/dicas.html"><img src="../assets/icons/dicas-icon.png" alt="">Dicas</a>
                 </div>
-                <div class="saldo">
-                    <p>Saldo: R$ 1.000,00</p>
+                <div class="saldo" id="saldo">
                 </div>
             </div>
         </div>
@@ -51,7 +50,7 @@
     <script src="../js/dicas-videos.js"></script>
     <script>
 
-        const goals = [];
+        let goals = [];
 
         function openModal() {
             document.getElementById('metasModal').style.display = 'block';
@@ -62,22 +61,40 @@
             document.getElementById('metasModal').style.display = 'none';
         }
 
+        const userId = JSON.parse(localStorage.getItem('currentUser')).id;
 
-        function fetchGoals() {
-            const goals = [];
+        fetch(`https://jsonserver--lopeszd.repl.co/users/${userId}`)
+            .then(response => response.json())
+            .then(user => {
+                if (user) {
+                    const saldoElement = document.getElementById('saldo');
+                    saldoElement.innerHTML = `<p>Saldo: R$ ${user.balance}</p>`;
+                } else {
+                    console.error("Usuário não encontrado na base de dados.");
+                }
+            })
+            .catch(error => {
+                console.error("Erro ao buscar informações do usuário na base de dados:", error);
+            });
 
-            fetch('https://jsonserver--lopeszd.repl.co/metas')
+
+            function fetchGoals() {
+            const userId = JSON.parse(localStorage.getItem('currentUser')).id;
+
+            fetch(`https://jsonserver--lopeszd.repl.co/users/${userId}`)
                 .then(response => response.json())
-                .then(data => {
-                    console.log('Metas carregadas do servidor JSON:', data);
-                    goals.push(...data);
-                    renderGoals(goals);
+                .then(user => {
+                    if (user && user.goals) {
+                        goals = user.goals;
+                        renderGoals(goals);
+                    } else {
+                        console.error("Metas não encontradas para este usuário.");
+                    }
                 })
                 .catch(error => {
-                    console.error('Erro ao carregar metas do servidor JSON:', error);
+                    console.error("Erro ao buscar informações das metas do usuário:", error);
                 });
         }
-
 
         function renderGoals(goals) {
             const goalList = document.getElementById('goalList');
@@ -86,8 +103,8 @@
             goals.forEach((goal, index) => {
                 const listItem = document.createElement('li');
                 listItem.innerHTML = `
-                    <input type="text" class="goal-name" value="${goal.name}" readonly>
-                    <input type="number" class="goal-value" value="${goal.value}" readonly disabled>
+                    <input type="text" class="goal-name" value="${goal.goalName}" readonly>
+                    <input type="number" class="goal-value" value="${goal.goalValue}" readonly disabled>
                     <button class="delete-button" data-index="${index}">X</button>
                 `;
                 goalList.appendChild(listItem);
@@ -100,9 +117,7 @@
                     console.log('Clicado para excluir meta:', goals[index]);
                     goals.splice(index, 1);
 
-                    saveGoalsToJSON(goals);
-
-                    renderGoals(goals);
+                    updateUserGoals(goals); 
                 });
             });
         }
@@ -114,39 +129,51 @@
             const newGoalValue = parseFloat(document.getElementById('newGoalValue').value);
 
             if (newGoalName && !isNaN(newGoalValue)) {
-                console.log('Adicionando nova meta:', { name: newGoalName, value: newGoalValue });
-                goals.push({ name: newGoalName, value: newGoalValue });
+                const userId = JSON.parse(localStorage.getItem('currentUser')).id;
 
-                saveGoalsToJSON(goals);
+                const goalId = Math.floor(Math.random() * 1000) + 1; 
 
-                renderGoals(goals);
-
-                document.getElementById('newGoalName').value = '';
-                document.getElementById('newGoalValue').value = '';
+                fetch(`https://jsonserver--lopeszd.repl.co/users/${userId}`, {
+                    method: 'PATCH',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ goals: [...goals, { goalId, goalName: newGoalName, goalValue: newGoalValue }] }),
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('Meta adicionada com sucesso:', data);
+                        fetchGoals(); 
+                    })
+                    .catch(error => {
+                        console.error('Erro ao adicionar meta:', error);
+                    });
             } else {
                 alert('Por favor, preencha o nome e o valor da meta.');
             }
         });
 
 
-        function saveGoalsToJSON(goals) {
-            const jsonData = JSON.stringify(goals);
+        function updateUserGoals(goals) {
+            const userId = JSON.parse(localStorage.getItem('currentUser')).id;
 
-            fetch('https://jsonserver--lopeszd.repl.co/metas', {
-                method: 'POST',
+            fetch(`https://jsonserver--lopeszd.repl.co/users/${userId}`, {
+                method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: jsonData,
+                body: JSON.stringify({ goals }),
             })
                 .then(response => response.json())
                 .then(data => {
-                    console.log('Metas salvas com sucesso no servidor JSON:', data);
+                    console.log('Metas atualizadas com sucesso:', data);
+                    fetchGoals(); 
                 })
                 .catch(error => {
-                    console.error('Erro ao salvar metas no servidor JSON:', error);
+                    console.error('Erro ao atualizar as metas:', error);
                 });
         }
+
     </script>
 </body>
 
