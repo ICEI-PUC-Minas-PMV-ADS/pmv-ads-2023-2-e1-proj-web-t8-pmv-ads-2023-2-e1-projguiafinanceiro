@@ -1,25 +1,31 @@
-let entradas = [];
-let total = 0;
+const listaEntradas = document.getElementById('lista-entradas');
+        const totalElemento = document.getElementById('total');
+        const entradaForm = document.getElementById('entrada-form');
 
-function somaEntradas() {
-    const nomeEntradas = (document.getElementById('goalName').value);
-    const valores = (document.getElementById('goalValue').value);
+        let total = 0.00;
 
-    let entrada = {
-        nome: nomeEntradas,
-        preco: valores
-    };
+        function adicionarEntrada() {
+            const nomeInput = document.getElementById('nome');
+            const valorInput = document.getElementById('valor');
 
-    entradas.push(entrada);
+            const nome = nomeInput.value;
+            const valor = parseFloat(valorInput.value);
 
-    let lista = `${entrada.nome} =============== ${entrada.preco.toFixed(2)}`;
-    document.getElementById('goalList').innerHTML = lista;
-}
+            if (nome && !isNaN(valor)) {
+                const itemLista = document.createElement('li');
+                itemLista.textContent = `${nome}: $${valor.toFixed(2)}`;
+                listaEntradas.appendChild(itemLista);
 
-function recebeEventoForm(evento) {
-    evento.preventDefault();
-    somaEntradas();
-}
+                total += valor;
 
-const form = document.getElementById('form');
-form.addEventListener('submit', recebeEventoForm);
+                totalElemento.textContent = `Total: $${total.toFixed(2)}`;
+
+                // Limpa os campos do formulário
+                nomeInput.value = '';
+                valorInput.value = '';
+            } else {
+                alert('Por favor, insira um nome e um valor válido.');
+            }
+        }
+
+        adicionarEntrada();

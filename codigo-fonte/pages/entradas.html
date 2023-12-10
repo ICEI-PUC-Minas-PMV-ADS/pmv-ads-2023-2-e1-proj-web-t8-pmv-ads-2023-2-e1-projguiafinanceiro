@@ -4,20 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/entradas.css">
-    <title>Entradas</title>
+    <title>Organizador Financeiro</title>
+    <link rel="stylesheet" href="../css/entradas.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Entradas</h1>
-        <form class="add-goal-container" id="form">
-            <input type="text" id="goalName" class="goal-name" placeholder="Entradas">
-            <input type="number" id="goalValue" class="goal-value" placeholder="Valor">
-            <button type="submit" id="addGoal" class="add-button">Adicionar</button>
-        </form>
-        <ul class="goal-list" id="goalList"></ul>
-    </div>
-    <script src="../js/entradas.js"></script>
+    <form id="entrada-form">
+        <label for="nome" ></label>
+        <input type="text" id="nome" placeholder="Entradas" required>
+
+        <label for="valor"></label>
+        <input type="number" id="valor" step="0.01" placeholder="Valor" required>
+
+        <button type="button" onclick="adicionarEntrada()">Adicionar</button>
+    </form>
+
+    <ul id="lista-entradas">
+        <!-- As entradas serão adicionadas dinamicamente aqui -->
+    </ul>
+
+    <p id="total">Total: R$0.00</p>
+
 </body>
 
-</html>
+<script src="../js/entradas.js"></script>
